@@ -1,0 +1,13 @@
+id,document,sentence,dates,assigned_to,status,risk
+1,Employee Handbook.txt,"Employee Handbook
+Employees are required to maintain confidentiality of internal data.",2025-10-30,,Open,Medium
+2,Employee Handbook.txt,All leave requests must be submitted through the HR portal.,2025-11-04,,Open,Medium
+3,Employee Handbook.txt,The organization shall review wage policies every financial year.,2025-11-04,,Open,Medium
+4,Safety Policy.txt,"Safety Policy
+Every employee must wear safety equipment in designated zones.",,,Open,Medium
+5,Safety Policy.txt,All safety training shall be completed by March 2025.,2025-03-04,,Open,Medium
+6,Safety Policy.txt,Supervisors are required to ensure compliance with OSHA standards.,2025-10-30,,Open,Medium
+7,Safety Policy.txt,Accidents must be reported immediately to the safety committee.,2025-10-30,,Open,Medium
+8,Data Privacy Policy.txt,All personal data must be stored securely and processed lawfully.,2025-11-03,,Open,Medium
+9,Data Privacy Policy.txt,Employees shall ensure that personal information is deleted after the retention period.,,,Open,Medium
+10,Data Privacy Policy.txt,All data protection incidents must be reported to the compliance officer within 24 hours.,2025-11-03,,Open,Medium

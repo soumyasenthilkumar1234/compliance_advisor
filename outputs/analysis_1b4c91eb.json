@@ -1,0 +1,192 @@
+{
+  "files": [
+    {
+      "filename": "Employee Handbook.txt",
+      "supported": true,
+      "domain": "HR / Labour",
+      "summary": "Employee Handbook\nEmployees are required to maintain confidentiality of internal data. All leave requests must be submitted through the HR portal. The organization shall review wage policies every financial year.",
+      "obligations": [
+        {
+          "sentence": "Employee Handbook\nEmployees are required to maintain confidentiality of internal data.",
+          "dates": [
+            "2025-10-30"
+          ]
+        },
+        {
+          "sentence": "All leave requests must be submitted through the HR portal.",
+          "dates": [
+            "2025-11-04"
+          ]
+        },
+        {
+          "sentence": "The organization shall review wage policies every financial year.",
+          "dates": [
+            "2025-11-04"
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "Safety Policy.txt",
+      "supported": true,
+      "domain": "Safety / Environmental",
+      "summary": "Safety Policy\nEvery employee must wear safety equipment in designated zones. All safety training shall be completed by March 2025. Supervisors are required to ensure compliance with OSHA standards.",
+      "obligations": [
+        {
+          "sentence": "Safety Policy\nEvery employee must wear safety equipment in designated zones.",
+          "dates": []
+        },
+        {
+          "sentence": "All safety training shall be completed by March 2025.",
+          "dates": [
+            "2025-03-04"
+          ]
+        },
+        {
+          "sentence": "Supervisors are required to ensure compliance with OSHA standards.",
+          "dates": [
+            "2025-10-30"
+          ]
+        },
+        {
+          "sentence": "Accidents must be reported immediately to the safety committee.",
+          "dates": [
+            "2025-10-30"
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "Data Privacy Policy.txt",
+      "supported": true,
+      "domain": "Data Privacy",
+      "summary": "Data Privacy Policy\nThis document outlines how the company complies with GDPR and CCPA rules. Employees shall ensure that personal information is deleted after the retention period. All data protection incidents must be reported to the compliance officer within 24 hours.",
+      "obligations": [
+        {
+          "sentence": "All personal data must be stored securely and processed lawfully.",
+          "dates": [
+            "2025-11-03"
+          ]
+        },
+        {
+          "sentence": "Employees shall ensure that personal information is deleted after the retention period.",
+          "dates": []
+        },
+        {
+          "sentence": "All data protection incidents must be reported to the compliance officer within 24 hours.",
+          "dates": [
+            "2025-11-03"
+          ]
+        }
+      ]
+    }
+  ],
+  "combined_checklist": [
+    {
+      "id": 1,
+      "document": "Employee Handbook.txt",
+      "sentence": "Employee Handbook\nEmployees are required to maintain confidentiality of internal data.",
+      "dates": [
+        "2025-10-30"
+      ],
+      "assigned_to": "",
+      "status": "Open",
+      "risk": "Medium"
+    },
+    {
+      "id": 2,
+      "document": "Employee Handbook.txt",
+      "sentence": "All leave requests must be submitted through the HR portal.",
+      "dates": [
+        "2025-11-04"
+      ],
+      "assigned_to": "",
+      "status": "Open",
+      "risk": "Medium"
+    },
+    {
+      "id": 3,
+      "document": "Employee Handbook.txt",
+      "sentence": "The organization shall review wage policies every financial year.",
+      "dates": [
+        "2025-11-04"
+      ],
+      "assigned_to": "",
+      "status": "Open",
+      "risk": "Medium"
+    },
+    {
+      "id": 4,
+      "document": "Safety Policy.txt",
+      "sentence": "Safety Policy\nEvery employee must wear safety equipment in designated zones.",
+      "dates": [],
+      "assigned_to": "",
+      "status": "Open",
+      "risk": "Medium"
+    },
+    {
+      "id": 5,
+      "document": "Safety Policy.txt",
+      "sentence": "All safety training shall be completed by March 2025.",
+      "dates": [
+        "2025-03-04"
+      ],
+      "assigned_to": "",
+      "status": "Open",
+      "risk": "Medium"
+    },
+    {
+      "id": 6,
+      "document": "Safety Policy.txt",
+      "sentence": "Supervisors are required to ensure compliance with OSHA standards.",
+      "dates": [
+        "2025-10-30"
+      ],
+      "assigned_to": "",
+      "status": "Open",
+      "risk": "Medium"
+    },
+    {
+      "id": 7,
+      "document": "Safety Policy.txt",
+      "sentence": "Accidents must be reported immediately to the safety committee.",
+      "dates": [
+        "2025-10-30"
+      ],
+      "assigned_to": "",
+      "status": "Open",
+      "risk": "Medium"
+    },
+    {
+      "id": 8,
+      "document": "Data Privacy Policy.txt",
+      "sentence": "All personal data must be stored securely and processed lawfully.",
+      "dates": [
+        "2025-11-03"
+      ],
+      "assigned_to": "",
+      "status": "Open",
+      "risk": "Medium"
+    },
+    {
+      "id": 9,
+      "document": "Data Privacy Policy.txt",
+      "sentence": "Employees shall ensure that personal information is deleted after the retention period.",
+      "dates": [],
+      "assigned_to": "",
+      "status": "Open",
+      "risk": "Medium"
+    },
+    {
+      "id": 10,
+      "document": "Data Privacy Policy.txt",
+      "sentence": "All data protection incidents must be reported to the compliance officer within 24 hours.",
+      "dates": [
+        "2025-11-03"
+      ],
+      "assigned_to": "",
+      "status": "Open",
+      "risk": "Medium"
+    }
+  ]
+}

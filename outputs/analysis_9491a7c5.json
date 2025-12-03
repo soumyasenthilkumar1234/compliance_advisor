@@ -1,0 +1,286 @@
+{
+  "files": [
+    {
+      "filename": "Employee Handbook.txt",
+      "supported": true,
+      "domain": "HR / Labour",
+      "summary": "Employee Handbook\nEmployees are required to maintain confidentiality of internal data. All leave requests must be submitted through the HR portal. The organization shall review wage policies every financial year.",
+      "obligations": [
+        {
+          "sentence": "Employee Handbook\nEmployees are required to maintain confidentiality of internal data.",
+          "dates": [
+            "2025-10-30"
+          ]
+        },
+        {
+          "sentence": "All leave requests must be submitted through the HR portal.",
+          "dates": [
+            "2025-11-04"
+          ]
+        },
+        {
+          "sentence": "The organization shall review wage policies every financial year.",
+          "dates": [
+            "2025-11-04"
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "Safety Policy.txt",
+      "supported": true,
+      "domain": "Safety / Environmental",
+      "summary": "Safety Policy\nEvery employee must wear safety equipment in designated zones. All safety training shall be completed by March 2025. Supervisors are required to ensure compliance with OSHA standards.",
+      "obligations": [
+        {
+          "sentence": "Safety Policy\nEvery employee must wear safety equipment in designated zones.",
+          "dates": []
+        },
+        {
+          "sentence": "All safety training shall be completed by March 2025.",
+          "dates": [
+            "2025-03-04"
+          ]
+        },
+        {
+          "sentence": "Supervisors are required to ensure compliance with OSHA standards.",
+          "dates": [
+            "2025-10-30"
+          ]
+        },
+        {
+          "sentence": "Accidents must be reported immediately to the safety committee.",
+          "dates": [
+            "2025-10-30"
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "Data Privacy Policy.txt",
+      "supported": true,
+      "domain": "Data Privacy",
+      "summary": "Data Privacy Policy\nThis document outlines how the company complies with GDPR and CCPA rules. Employees shall ensure that personal information is deleted after the retention period. All data protection incidents must be reported to the compliance officer within 24 hours.",
+      "obligations": [
+        {
+          "sentence": "All personal data must be stored securely and processed lawfully.",
+          "dates": [
+            "2025-11-03"
+          ]
+        },
+        {
+          "sentence": "Employees shall ensure that personal information is deleted after the retention period.",
+          "dates": []
+        },
+        {
+          "sentence": "All data protection incidents must be reported to the compliance officer within 24 hours.",
+          "dates": [
+            "2025-11-03"
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "sample_policy.pdf",
+      "supported": true,
+      "domain": "Data Privacy",
+      "summary": "yola collects the ip address and header information, and may\ncollect the following: the e-mail address of registered users of our web site\nand the yola toolset; the e-mail addresses of registered users who post messages\nto our bulletin board, communicate with us via e-mail, and/or make postings to\nour chat areas; aggregate information on what pages registered users access or\nvisit; registered user-specific information on what pages registered users\naccess or visit; and personal information may also be collected if you leave\ncomments or other communications on the site, such as on the yola bulletin board\nand/or chat areas, and/or send email directly to yola. in general, we use personal\ninformation we collect to process your requests or transactions, to provide you\nwith information or services you request, to inform you about other information,\nevents, promotions, products or services we think will be of interest to you, to\nfacilitate your use of, and our administration and operation of, the site,\nnewsletters and for the purpose for which the information was provided.we may\nalso use the personal information we collect to improve the content of our web\npage and to customize the advertising and the content and/or layout of our page\nfor our visitors and individual registered users. we reserve\nthe right to disclose or transfer such information to a third party (a) if you\nrequest us to do so or we otherwise have your consent, (b) if we believe in good\nfaith that we are lawfully authorized or required to do so or that doing so is\nreasonably necessary or appropriate to comply with the law or with legal process\nor authorities, respond to any claims, or to protect the rights, property or\nsafety of yola, our users, our employees or the public, including without\nlimitation to protect yola or our users or the public from fraudulent, abusive,\ninappropriate or unlawful use of our site, (c) if we believe in good faith that\nan emergency involving immediate danger of death or serious physical injury to\nany person, or other irreparable injury, including economic interests of yola or\na third party, requires disclosure of the information, and (d) in connection\nwith an acquisition, merger, or sale of all or a substantial portion of our\nbusiness.",
+      "obligations": [
+        {
+          "sentence": "if you have questions or\nconcerns regarding this statement, you should first contact support@yola.com.",
+          "dates": [
+            "2025-10-31"
+          ]
+        },
+        {
+          "sentence": "if\nyou do not receive acknowledgement of your inquiry or your inquiry has not been\nsatisfactorily addressed, you should contact truste.",
+          "dates": [
+            "2025-11-02"
+          ]
+        },
+        {
+          "sentence": "if\nyou are concerned about how your personal information is used, you should\nsubscribe to our blog rss feed at http://www.yola.com/blog or e-mail us at\nsupport@yola.com.",
+          "dates": [
+            "2025-10-30"
+          ]
+        },
+        {
+          "sentence": "if you visit a third\nparty website that is linked to from a yola site, you should read that website's\nprivacy statement before providing any personally identifiable information.",
+          "dates": []
+        },
+        {
+          "sentence": "to receive a free written notice of a security breach, you should\nnotify us at support@yola.com.",
+          "dates": [
+            "2025-10-30"
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "Summer Internship.pdf",
+      "supported": true,
+      "note": "No text found"
+    }
+  ],
+  "combined_checklist": [
+    {
+      "id": 1,
+      "document": "Employee Handbook.txt",
+      "sentence": "Employee Handbook\nEmployees are required to maintain confidentiality of internal data.",
+      "dates": [
+        "2025-10-30"
+      ],
+      "assigned_to": "",
+      "status": "Open",
+      "risk": "Medium"
+    },
+    {
+      "id": 2,
+      "document": "Employee Handbook.txt",
+      "sentence": "All leave requests must be submitted through the HR portal.",
+      "dates": [
+        "2025-11-04"
+      ],
+      "assigned_to": "",
+      "status": "Open",
+      "risk": "Medium"
+    },
+    {
+      "id": 3,
+      "document": "Employee Handbook.txt",
+      "sentence": "The organization shall review wage policies every financial year.",
+      "dates": [
+        "2025-11-04"
+      ],
+      "assigned_to": "",
+      "status": "Open",
+      "risk": "Medium"
+    },
+    {
+      "id": 4,
+      "document": "Safety Policy.txt",
+      "sentence": "Safety Policy\nEvery employee must wear safety equipment in designated zones.",
+      "dates": [],
+      "assigned_to": "",
+      "status": "Open",
+      "risk": "Medium"
+    },
+    {
+      "id": 5,
+      "document": "Safety Policy.txt",
+      "sentence": "All safety training shall be completed by March 2025.",
+      "dates": [
+        "2025-03-04"
+      ],
+      "assigned_to": "",
+      "status": "Open",
+      "risk": "Medium"
+    },
+    {
+      "id": 6,
+      "document": "Safety Policy.txt",
+      "sentence": "Supervisors are required to ensure compliance with OSHA standards.",
+      "dates": [
+        "2025-10-30"
+      ],
+      "assigned_to": "",
+      "status": "Open",
+      "risk": "Medium"
+    },
+    {
+      "id": 7,
+      "document": "Safety Policy.txt",
+      "sentence": "Accidents must be reported immediately to the safety committee.",
+      "dates": [
+        "2025-10-30"
+      ],
+      "assigned_to": "",
+      "status": "Open",
+      "risk": "Medium"
+    },
+    {
+      "id": 8,
+      "document": "Data Privacy Policy.txt",
+      "sentence": "All personal data must be stored securely and processed lawfully.",
+      "dates": [
+        "2025-11-03"
+      ],
+      "assigned_to": "",
+      "status": "Open",
+      "risk": "Medium"
+    },
+    {
+      "id": 9,
+      "document": "Data Privacy Policy.txt",
+      "sentence": "Employees shall ensure that personal information is deleted after the retention period.",
+      "dates": [],
+      "assigned_to": "",
+      "status": "Open",
+      "risk": "Medium"
+    },
+    {
+      "id": 10,
+      "document": "Data Privacy Policy.txt",
+      "sentence": "All data protection incidents must be reported to the compliance officer within 24 hours.",
+      "dates": [
+        "2025-11-03"
+      ],
+      "assigned_to": "",
+      "status": "Open",
+      "risk": "Medium"
+    },
+    {
+      "id": 11,
+      "document": "sample_policy.pdf",
+      "sentence": "if you have questions or\nconcerns regarding this statement, you should first contact support@yola.com.",
+      "dates": [
+        "2025-10-31"
+      ],
+      "assigned_to": "",
+      "status": "Open",
+      "risk": "Low"
+    },
+    {
+      "id": 12,
+      "document": "sample_policy.pdf",
+      "sentence": "if\nyou do not receive acknowledgement of your inquiry or your inquiry has not been\nsatisfactorily addressed, you should contact truste.",
+      "dates": [
+        "2025-11-02"
+      ],
+      "assigned_to": "",
+      "status": "Open",
+      "risk": "Low"
+    },
+    {
+      "id": 13,
+      "document": "sample_policy.pdf",
+      "sentence": "if\nyou are concerned about how your personal information is used, you should\nsubscribe to our blog rss feed at http://www.yola.com/blog or e-mail us at\nsupport@yola.com.",
+      "dates": [
+        "2025-10-30"
+      ],
+      "assigned_to": "",
+      "status": "Open",
+      "risk": "Low"
+    },
+    {
+      "id": 14,
+      "document": "sample_policy.pdf",
+      "sentence": "if you visit a third\nparty website that is linked to from a yola site, you should read that website's\nprivacy statement before providing any personally identifiable information.",
+      "dates": [],
+      "assigned_to": "",
+      "status": "Open",
+      "risk": "Low"
+    },
+    {
+      "id": 15,
+      "document": "sample_policy.pdf",
+      "sentence": "to receive a free written notice of a security breach, you should\nnotify us at support@yola.com.",
+      "dates": [
+        "2025-10-30"
+      ],
+      "assigned_to": "",
+      "status": "Open",
+      "risk": "Low"
+    }
+  ]
+}

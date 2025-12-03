@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AI Compliance Advisor</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">🧭 AI Compliance Advisor</div>
+    <nav class="nav">
+      <button id="downloadCSV" class="btn small" style="display:none">📤 Export CSV</button>
+      <button id="aboutBtn" class="btn small">ℹ️ About</button>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="upload-card card">
+      <h2>Upload Documents</h2>
+      <div id="dropzone" class="dropzone">
+        <p>Drag & drop files here or <label class="browse">browse<input id="fileInput" type="file" name="files[]" multiple style="display:none"></label></p>
+        <small>Allowed: .pdf .docx .txt .xlsx</small>
+      </div>
+      <div class="upload-actions">
+        <button id="analyzeBtn" class="btn primary">Analyze Documents 🔍</button>
+        <button id="resetBtn" class="btn">Reset</button>
+      </div>
+      <div id="fileList" class="file-list"></div>
+    </section>
+
+    <section id="summarySection" class="card summary-section" style="display:none">
+      <h2>Document Analysis Summary</h2>
+      <div id="summaryGrid" class="summary-grid"></div>
+    </section>
+
+    <section id="checklistSection" class="card checklist-section" style="display:none">
+      <h2>Compliance Checklist</h2>
+      <div id="checklistControls" class="mb8">
+        <label>Filter risk:
+          <select id="riskFilter"><option value="All">All</option><option>High</option><option>Medium</option><option>Low</option></select>
+        </label>
+        <input id="searchBox" placeholder="Search obligations..." />
+      </div>
+      <div class="table-wrap">
+        <table id="checklistTable" class="table">
+          <thead><tr><th>ID</th><th>Document</th><th>Obligation (source)</th><th>Dates</th><th>Risk</th><th>Status</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="riskPanel" class="card risk-panel" style="display:none">
+      <h3>Risk Overview</h3>
+      <div id="riskBadges" class="badges"></div>
+      <h4>Missing / Suggestions</h4>
+      <ul id="suggestionsList"></ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    © 2025 AI Compliance Advisor — Demo
+  </footer>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

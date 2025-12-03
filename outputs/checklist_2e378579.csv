@@ -1,0 +1,15 @@
+id,document,sentence,dates,assigned_to,status,risk
+1,sample_policy.pdf,"if you have questions or
+concerns regarding this statement, you should first contact support@yola.com.",2025-10-31,,Open,Medium
+2,sample_policy.pdf,"if
+you do not receive acknowledgement of your inquiry or your inquiry has not been
+satisfactorily addressed, you should contact truste.",2025-11-02,,Open,Medium
+3,sample_policy.pdf,"if
+you are concerned about how your personal information is used, you should
+subscribe to our blog rss feed at http://www.yola.com/blog or e-mail us at
+support@yola.com.",2025-10-30,,Open,Medium
+4,sample_policy.pdf,"if you visit a third
+party website that is linked to from a yola site, you should read that website's
+privacy statement before providing any personally identifiable information.",,,Open,Medium
+5,sample_policy.pdf,"to receive a free written notice of a security breach, you should
+notify us at support@yola.com.",2025-10-30,,Open,Medium

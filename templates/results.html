@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>ComplianceAdvisor — Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>ComplianceAdvisor — Analysis Results</h1>
+        <p class="subtitle">Per-document summaries and combined checklist</p>
+      </header>
+
+      <main>
+        <section class="results-grid">
+          <div class="panel">
+            <h3>Uploaded Files</h3>
+            <ul>
+              {% for f in analysis.files %}
+                <li>
+                  <strong>{{ f.filename }}</strong>
+                  {% if not f.supported %}<em class="badge red">Unsupported</em>{% endif %}
+                  {% if f.get('domain') %} <span class="badge">{{ f.domain }}</span>{% endif %}
+                  {% if f.get('note') %}<div class="note">{{ f.note }}</div>{% endif %}
+                  {% if f.get('summary') %}
+                    <div class="summary">{{ f.summary }}</div>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+
+          <div class="panel">
+            <h3>Combined Checklist</h3>
+            {% if analysis.combined_checklist %}
+              <table class="table">
+                <thead><tr><th>ID</th><th>Document</th><th>Sentence (source)</th><th>Dates</th><th>Status</th></tr></thead>
+                <tbody>
+                  {% for item in analysis.combined_checklist %}
+                    <tr>
+                      <td>{{ item.id }}</td>
+                      <td>{{ item.document }}</td>
+                      <td>{{ item.sentence }}</td>
+                      <td>{{ item.dates|join(', ') }}</td>
+                      <td>{{ item.status }}</td>
+                    </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+              <div class="export-row">
+                <a class="btn" href="{{ csv_url }}">Download CSV Checklist</a>
+              </div>
+            {% else %}
+              <p>No obligations detected across uploaded files.</p>
+            {% endif %}
+          </div>
+        </section>
+
+        <div class="back-row">
+          <a class="btn" href="{{ url_for('index') }}">Process More Files</a>
+        </div>
+      </main>
+
+      <footer>
+        <p>Outputs saved in the server outputs/ folder for auditing</p>
+      </footer>
+    </div>
+  </body>
+</html>

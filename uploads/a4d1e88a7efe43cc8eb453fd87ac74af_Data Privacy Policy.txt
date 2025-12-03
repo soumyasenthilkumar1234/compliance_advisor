@@ -1,0 +1,6 @@
+Data Privacy Policy
+This document outlines how the company complies with GDPR and CCPA rules.
+All personal data must be stored securely and processed lawfully.
+Employees shall ensure that personal information is deleted after the retention period.
+All data protection incidents must be reported to the compliance officer within 24 hours.
+Failure to comply may result in penalties.
